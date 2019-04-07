@@ -344,6 +344,7 @@ class _HomeState extends State<Home> {
             ),
           ),//first container end
 
+          
           new Container(
             margin: EdgeInsets.all(10.0),
             child: new Card(
@@ -404,7 +405,7 @@ class _HomeState extends State<Home> {
       ),//end body
 
 
-        
+
       floatingActionButton: new FloatingActionButton(
           onPressed: (){},
         child: new Icon(Icons.create,color: Colors.white,),
